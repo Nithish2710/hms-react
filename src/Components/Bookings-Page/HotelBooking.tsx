@@ -4,7 +4,6 @@ import { HotelHeader } from "./HotelHeader";
 import { ImageGallery } from "./ImageGallery";
 import { PropertyDetails } from "./PropertyDetails";
 import { BookingForm } from "./BookingForm";
-import { Header } from "../Homepage-Carousel/Header";
 
 export function HotelBooking() {
   const [checkInDate, setCheckInDate] = useState("");
@@ -22,7 +21,6 @@ export function HotelBooking() {
 
   return (
     <>
-    <Header />
     <div className="p-6 min-h-screen bg-white">
       <main className="overflow-hidden mx-auto my-0 rounded-2xl bg-white max-w-[1200px] shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
         
@@ -39,8 +37,10 @@ export function HotelBooking() {
             setGuests={setGuests}
           />
         </div>
+
       </main>
     </div>
+
     </>
   );
 }

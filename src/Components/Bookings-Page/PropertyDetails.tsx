@@ -1,4 +1,3 @@
-import * as React from "react";
 import { FeatureItem } from "./FeatureItem";
 
 export function PropertyDetails() {

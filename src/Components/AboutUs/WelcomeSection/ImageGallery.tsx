@@ -1,4 +1,7 @@
 import React from "react";
+import mainImg from '../../../assets/about2.jpg';
+import down1Img from '../../../assets/down1.jpg';
+import down2Img from '../../../assets/down2.jpg';
 
 export const ImageGallery: React.FC = () => {
   return (
@@ -6,7 +9,7 @@ export const ImageGallery: React.FC = () => {
       <div className="overflow-hidden relative rounded-2xl shadow-[0_20px_40px_rgba(0,0,0,0.1)]">
         <img
           alt="Mountain landscape view from hotel"
-          src="https://images.pexels.com/photos/32850470/pexels-photo-32850470.jpeg"
+          src={mainImg}
           className="object-cover overflow-hidden w-full h-[400px] max-sm:h-[300px]"
         />
       </div>
@@ -14,14 +17,14 @@ export const ImageGallery: React.FC = () => {
         <div className="overflow-hidden rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.15)]">
           <img
             alt="Forest path near hotel"
-            src="https://images.pexels.com/photos/32852521/pexels-photo-32852521.jpeg"
+            src={down1Img}
             className="object-cover overflow-hidden w-full h-[120px]"
           />
         </div>
         <div className="overflow-hidden rounded-xl shadow-[0_10px_25px_rgba(0,0,0,0.15)]">
           <img
             alt="Winter mountain hiking"
-            src="https://images.pexels.com/photos/9021404/pexels-photo-9021404.jpeg"
+            src={down2Img}
             className="object-cover overflow-hidden w-full h-[120px]"
           />
         </div>

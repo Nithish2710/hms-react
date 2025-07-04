@@ -1,5 +1,5 @@
 "use client";
-import bgImage from "../../assets/aboutus.jpg"; 
+import bgImage from "../../assets/about1.jpg"; 
 
 function AboutUsBanner() {
   return (
@@ -15,7 +15,7 @@ function AboutUsBanner() {
           {/* Content above overlay */}
           <div className="relative z-10 px-6 w-full max-w-[1200px] text-white text-center">
             <h3 className="text-7xl font-bold">About us</h3><br/>
-            <h2>Welcome to Hari Rams, where luxury meets comfort in the heart of Pollachi.</h2>
+            <h2 className="text-xl">Welcome to Hari Rams, where luxury meets comfort in the heart of Pollachi.</h2>
           </div>
         </main>
       </div>

@@ -70,7 +70,7 @@ const features = [
         />
       </svg>
     ),
-    title: "Since 1999",
+    title: "Free High Speed Wifi",
     description: "Trusted experience",
   },
 ];

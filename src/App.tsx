@@ -5,6 +5,8 @@ import Homepagecarouse from './Components/Homepage/HomePage';
 import { Header } from './Components/Header/Header';
 import { FooterSection } from './Components/Footer/Footer';
 import AboutUsPage from './Components/AboutUs/AboutUsPage';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 function App() {
 
   return (

@@ -21,12 +21,12 @@ import {
 import {faPhone,faEnvelope,faLocationDot} from "@fortawesome/free-solid-svg-icons";
 export function FooterSection() {
   return (
-    <div container className="bg-[#f9f9f9] px-20 py-10 ">
+    <div container className="bg-[#d4d4d4b9] px-20 py-10 ">
       {/* Top Section */}
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-4">
         {/* Logo & Description */}
         <div>
-          <img src={LogoImg} alt="Hemhalayaah Logo" className="h-16 mb-4" />
+          <img src={LogoImg} alt="Hemhalayaah Logo" className="h-30 mb-4" />
           <p className="text-gray-600 text-sm">
             Each room features plush bedding, high-quality linens, and a selection of amenities to ensure a restful night’s sleep.
           </p>

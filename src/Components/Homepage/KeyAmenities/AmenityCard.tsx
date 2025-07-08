@@ -25,7 +25,7 @@ export const AmenityCard: React.FC<AmenityCardProps> = ({
       </div>
       <h3 className="mb-3 mt-3 text-md font-semibold text-center text-slate-700">
         {title}
-      </h3>``
+      </h3>
     </article>
   );
 };

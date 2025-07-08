@@ -49,7 +49,7 @@ export function HotelCard({ image, title, location, price, rating, badge }: Hote
             <span className="text-2xl font-bold text-neutral-900"><FontAwesomeIcon icon={faIndianRupeeSign} /> {price}</span>
             <span className="ml-1 text-sm text-slate-600">/night</span>
           </div> */}
-          <button className="px-5 py-2.5 text-sm font-medium bg-[#57af47] text-white rounded-lg">Book Now</button>
+          <button className="px-5 py-2.5 text-sm font-medium bg-[#57af47] text-white rounded-lg cursor-pointer">Book Now</button>
         </div>
       </div>
     </article>

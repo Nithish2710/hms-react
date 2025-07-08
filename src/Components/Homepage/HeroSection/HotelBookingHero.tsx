@@ -2,7 +2,7 @@
 import * as React from "react";
 import { HeroContent } from "./HeroContent";
 import { SearchForm } from "./SearchForm";
-import bgImage from "../../../assets/banner-hotel.jpg"; 
+import bgImage from "../../../assets/banner-new.jpg"; 
 
 interface SearchFormData {
   destination: string;

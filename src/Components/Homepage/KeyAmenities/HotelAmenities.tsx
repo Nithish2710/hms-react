@@ -39,7 +39,7 @@ export const HotelAmenities: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 min-h-screen py-10 px-5">
+    <section className="bg-gray-50 min-h-screen py-10 px-5 -pb-20">
       <div className="max-w-6xl mx-auto text-center">
         <header className="mb-15">
           <p className="text-[#54af74] text-base font-medium tracking-widest uppercase mb-4 italic">
@@ -51,7 +51,7 @@ export const HotelAmenities: React.FC = () => {
           <div className="w-20 h-1 bg-green-700 mx-auto mt-5" />
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-10 sm:gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-10 sm:gap-8">
           {amenities.map((amenity, index) => (
             <AmenityCard
               key={index}

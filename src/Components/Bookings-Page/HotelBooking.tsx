@@ -10,7 +10,7 @@ export function HotelBooking() {
   const [checkOutDate, setCheckOutDate] = useState("");
   const [guests, setGuests] = useState(1);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-    // https://drive.google.com/file/d/1jvWSxBLpTcQx10KaPCflnRqlMKRu-uyV/view?usp=drive_link
+  // https://drive.google.com/file/d/1jvWSxBLpTcQx10KaPCflnRqlMKRu-uyV/view?usp=drive_link
   const images = [
     "https://images.pexels.com/photos/2725675/pexels-photo-2725675.jpeg",
     "https://images.pexels.com/photos/29074494/pexels-photo-29074494.jpeg",

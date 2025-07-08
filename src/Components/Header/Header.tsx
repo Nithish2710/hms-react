@@ -1,6 +1,6 @@
 "use client";
 import { FaSearch } from "react-icons/fa";
-import logo from '../../assets/harirams_logo.png';
+import logo from '../../assets/harirams logo updated.png';
 
 export function Header() {
   return (
@@ -69,39 +69,39 @@ export function Header() {
     </div>
 
     {/* Navigation Links */}
-    <nav className="hidden md:flex gap-8 text-zinc-700 text-xl">
+    <nav className="hidden md:flex gap-8 text-zinc-700 text-sm">
       <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
 }"
- href="/" >Home</a>
+ href="/" >HOME</a>
  <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
-}" href="/aboutus">About</a>
+}" href="/aboutus">ABOUT</a>
       <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
-}" href="#">Rooms & Tarrif</a>
+}" href="#">ROOMS & TARRIF</a>
 
       <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
-}" href="#">Food & Beverages</a>
+}" href="#">FOOD & BEVERAGES</a>
       <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
-}" href="#">Gallery</a>
+}" href="#">GALLERY</a>
 <a className="{({ isActive }) =>
   `transition-colors duration-300 ${
     isActive ? 'text-green-600 font-semibold' : 'text-black'
   }`
-}" href="#">Contact us</a>
+}" href="#">CONTACT US</a>
 
     </nav>
 
@@ -111,8 +111,9 @@ export function Header() {
     <FaSearch />
   </div>
   <button
-    className="bg-[#ffffff] text-white rounded-full px-6 py-2 font-semibold hover:bg-[#2c4129] transition duration-300 shadow-md"
-  style={{ backgroundColor: '#ffffff', color: '#06923E' }}>
+    className="bg-[#ffffff] text-white rounded-full px-6 py-2 font-semibold hover:bg-[#79d888] transition duration-300 shadow-md cursor-pointer hover:shadow-xl"
+  style={{ backgroundColor: '#57af47', color: 'white' }}> 
+  {/* #06923E - dark green  */}
     Book Now
   </button>
 </div>

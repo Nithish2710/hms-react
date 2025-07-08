@@ -1,8 +1,8 @@
 @import 'flowbite';
 
 :root {
-  font-family:'Mongolian Baiti','Bell MT','Times New Roman', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Gowun Dodum', "Roboto", system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5; 
   font-weight: 400;
 
   color-scheme: light dark;
@@ -37,13 +37,6 @@ h1 {
   line-height: 1.1;
 }
 
-button:hover {
-  border-color: #57af47;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {

@@ -25,7 +25,7 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
 
   const guestSelectOptions = guestOptions.map((num) => ({
     value: num,
-    label: num === 1 ? `${num} Guest` : `${num} Guests`,
+    label: num === 1 ,
   }));
 
   const handleSearch = () => {
@@ -45,34 +45,37 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
   };
 
   return (
-    <section className="pt-2 pb-4 px-5 mx-auto my-0 rounded-2xl shadow-2xl backdrop-blur-[20px] bg-white bg-opacity-90 max-w-[900px]  max-md:p-6 max-sm:p-5">
+    <section className="pt-2 pb-4 px-5 mx-auto my-0 rounded-2xl shadow-2xl backdrop-blur-[20px] bg-white bg-opacity-90 max-w-[900px] max-md:p-6 max-sm:p-5">
       <div className="flex gap-4 items-end grid-cols-[repeat(auto-fit,minmax(200px,1fr))] max-sm:gap-4 max-sm:grid-cols-[1fr]">
   <FormField
-  label={
-    <>
+      label={
+      <>
       <FontAwesomeIcon icon={faLocationDot} className="mr-1 text-black" />
       Destination
     </>
-  }
+    }
+  
   id="destination-input"
   type="text"
   placeholder="Type here"
   value={destination}
   onChange={(value) => setDestination(value as string)}
+  className="text-black"
 />
         <FormField
           label={
             <>
-      <FontAwesomeIcon icon={faCalendarDays} className="mr-1 text-black"/>
+      <FontAwesomeIcon icon={faCalendarDays} className="mr-1 "/>
         Check-in
             </>
           }
-          id="checkin-input"
+       
           type="date"
           placeholder="Select date"
           value={checkIn}
           onChange={(value) => setCheckIn(value as string)}
-          sty
+          
+          className="text-gray-500"
         />
 
         <FormField
@@ -86,6 +89,7 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
           type="date"
           value={checkOut}
           onChange={(value) => setCheckOut(value as string)}
+          className="text-gray-500"
         />
 
         <FormField
@@ -100,6 +104,7 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
           value={guests}
           onChange={(value) => setGuests(value as number)}
           options={guestSelectOptions}
+          className="text-gray-500"
         />
 
         <button

@@ -37,7 +37,7 @@ export const AmenityIcon: React.FC<AmenityIconProps> = ({ type }) => {
       <img
         src={imageIcons[type]}
         alt={type}
-        className="w-10 h-10 object-contain"
+        className="w-12 h-12 object-contain"
       />
     );
   }

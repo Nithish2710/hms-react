@@ -39,7 +39,7 @@ export const HotelAmenities: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 min-h-screen py-10 px-5 -pb-20">
+    <section className="bg-gray-50 py-10 px-5 -pb-20">
       <div className="max-w-6xl mx-auto text-center">
         <header className="mb-15">
           <p className="text-[#54af74] text-base font-medium tracking-widest uppercase mb-4 italic">
